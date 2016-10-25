@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Droid/bin/Debug
+/Droid/obj/Debug
+/Droid/.DS_Store
+/GettingStartedKanban/bin/Debug
+/GettingStartedKanban/obj/Debug
+/GettingStartedKanban/.DS_Store
+/GettingStartedKanban.UWP/obj/x86/Debug
+/GettingStartedKanban.UWP/.DS_Store
+/iOS/obj/iPhoneSimulator/Debug
+/iOS/.DS_Store
+/packages
+/GettingStartedKanban.userprefs
