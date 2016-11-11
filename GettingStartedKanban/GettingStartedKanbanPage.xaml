@@ -13,6 +13,9 @@
                      HorizontalOptions="FillAndExpand"
                      ItemsSource="{Binding Cards}"
                      VerticalOptions="FillAndExpand">
+      <kanban:SfKanban.Behaviors>
+        <local:KanbanItemTappedToCommandBehavior Command="{Binding OpenSelectedCardCommand}" />
+      </kanban:SfKanban.Behaviors>
 
       <kanban:SfKanban.Columns>
         <kanban:KanbanColumn x:Name="column1" Title="beginner" />

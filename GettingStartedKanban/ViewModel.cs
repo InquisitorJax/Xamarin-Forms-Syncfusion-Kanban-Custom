@@ -8,9 +8,11 @@
 
 #endregion Copyright Syncfusion Inc. 2001 - 2016
 
+using Prism.Commands;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Windows.Input;
 
 namespace GettingStartedKanban
 {
@@ -33,8 +35,17 @@ namespace GettingStartedKanban
                 Picture = null,
                 Status = (int)CustomCardStatus.Beginner
             });
+
+            OpenSelectedCardCommand = new DelegateCommand(OpenSelectedCard);
         }
 
         public ObservableCollection<CustomModel> Cards { get; set; }
+
+        public ICommand OpenSelectedCardCommand { get; }
+
+        private async void OpenSelectedCard()
+        {
+            await App.Current.MainPage.Navigation.PushAsync(new CardPage());
+        }
     }
 }

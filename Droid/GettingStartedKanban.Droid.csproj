@@ -50,16 +50,16 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Syncfusion.SfKanban.Android, Version=14.3451.0.49, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Xamarin.SfKanban.14.3.0.49\lib\MonoAndroid10\Syncfusion.SfKanban.Android.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\patch_libs\Kanban Assemblies\Syncfusion.SfKanban.Android.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SfKanban.XForms, Version=14.3451.0.49, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Xamarin.SfKanban.14.3.0.49\lib\MonoAndroid10\Syncfusion.SfKanban.XForms.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\patch_libs\Kanban Assemblies\Syncfusion.SfKanban.XForms.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SfKanban.XForms.Android, Version=14.3451.0.49, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Xamarin.SfKanban.14.3.0.49\lib\MonoAndroid10\Syncfusion.SfKanban.XForms.Android.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\patch_libs\Kanban Assemblies\Syncfusion.SfKanban.XForms.Android.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />

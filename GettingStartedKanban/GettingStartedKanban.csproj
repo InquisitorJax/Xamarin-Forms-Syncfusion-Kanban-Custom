@@ -43,6 +43,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CardPage.xaml.cs">
+      <DependentUpon>CardPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Colors.cs" />
     <Compile Include="CustomCard.xaml.cs">
       <DependentUpon>CustomCard.xaml</DependentUpon>
@@ -52,6 +55,7 @@
     <Compile Include="GettingStartedKanbanPage.xaml.cs">
       <DependentUpon>GettingStartedKanbanPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="KanbanItemTappedToCommandBehavior.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel.cs" />
   </ItemGroup>
@@ -64,9 +68,8 @@
       <HintPath>..\packages\Prism.Core.6.2.0\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Prism.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Syncfusion.SfKanban.XForms, Version=14.3451.0.49, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Xamarin.SfKanban.14.3.0.49\lib\portable-win+net45+wp80+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Syncfusion.SfKanban.XForms.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Syncfusion.SfKanban.XForms">
+      <HintPath>..\patch_libs\Kanban Assemblies\Syncfusion.SfKanban.XForms.dll</HintPath>
     </Reference>
     <Reference Include="Wibci.Xamarin.Forms.Converters, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Wibcisoft.Xamarin.Forms.Converters.1.0.0\lib\Wibci.Xamarin.Forms.Converters.dll</HintPath>
@@ -90,6 +93,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CustomCard.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CardPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
