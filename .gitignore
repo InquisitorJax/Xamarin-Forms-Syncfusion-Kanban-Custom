@@ -21,3 +21,11 @@
 /CustomKanban.iOS/obj
 /CustomKanban.UWP/obj/x86/Debug
 /CustomKanban.UWP/bin/x86/Debug
+/GettingStarted/Droid/bin/Debug
+/GettingStarted/Droid/obj/Debug
+/GettingStarted/GettingStartedKanban/bin/Debug
+/GettingStarted/GettingStartedKanban/obj/Debug
+/GettingStarted/GettingStartedKanban.UWP/bin/x86/Debug
+/GettingStarted/GettingStartedKanban.UWP/obj/x86/Debug
+/GettingStarted/iOS/obj/iPhoneSimulator/Debug
+/GettingStarted/packages

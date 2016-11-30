@@ -132,17 +132,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Syncfusion.SfKanban.UWP">
-      <HintPath>D:\Xamarin\lib\uwp\Syncfusion.SfKanban.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfKanban.XForms">
-      <HintPath>D:\Xamarin\lib\uwp\Syncfusion.SfKanban.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfKanban.XForms.UWP">
-      <HintPath>D:\Xamarin\lib\uwp\Syncfusion.SfKanban.XForms.UWP.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\GettingStartedKanban\GettingStartedKanban.csproj">
       <Project>{63739d4a-e01a-4807-adf2-4d194a477400}</Project>
       <Name>GettingStartedKanban</Name>
