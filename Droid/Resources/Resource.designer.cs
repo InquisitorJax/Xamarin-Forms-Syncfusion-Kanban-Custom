@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("GettingStartedKanban.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("CustomKanban.Droid.Resource", IsApplication=true)]
 
-namespace GettingStartedKanban.Droid
+namespace CustomKanban.Droid
 {
 	
 	
@@ -26,75 +26,75 @@ namespace GettingStartedKanban.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Syncfusion.SfKanban.Android.Resource.Animation.path_morph_hide = global::GettingStartedKanban.Droid.Resource.Animation.path_morph_hide;
-			global::Syncfusion.SfKanban.Android.Resource.Animation.path_morph_show = global::GettingStartedKanban.Droid.Resource.Animation.path_morph_show;
-			global::Syncfusion.SfKanban.Android.Resource.Attribute.cardBackgroundColor = global::GettingStartedKanban.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Syncfusion.SfKanban.Android.Resource.Attribute.cardCornerRadius = global::GettingStartedKanban.Droid.Resource.Attribute.cardCornerRadius;
-			global::Syncfusion.SfKanban.Android.Resource.Attribute.cardElevation = global::GettingStartedKanban.Droid.Resource.Attribute.cardElevation;
-			global::Syncfusion.SfKanban.Android.Resource.Attribute.cardMaxElevation = global::GettingStartedKanban.Droid.Resource.Attribute.cardMaxElevation;
-			global::Syncfusion.SfKanban.Android.Resource.Attribute.cardPreventCornerOverlap = global::GettingStartedKanban.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Syncfusion.SfKanban.Android.Resource.Attribute.cardUseCompatPadding = global::GettingStartedKanban.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Syncfusion.SfKanban.Android.Resource.Attribute.contentPadding = global::GettingStartedKanban.Droid.Resource.Attribute.contentPadding;
-			global::Syncfusion.SfKanban.Android.Resource.Attribute.contentPaddingBottom = global::GettingStartedKanban.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Syncfusion.SfKanban.Android.Resource.Attribute.contentPaddingLeft = global::GettingStartedKanban.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Syncfusion.SfKanban.Android.Resource.Attribute.contentPaddingRight = global::GettingStartedKanban.Droid.Resource.Attribute.contentPaddingRight;
-			global::Syncfusion.SfKanban.Android.Resource.Attribute.contentPaddingTop = global::GettingStartedKanban.Droid.Resource.Attribute.contentPaddingTop;
-			global::Syncfusion.SfKanban.Android.Resource.Attribute.layoutManager = global::GettingStartedKanban.Droid.Resource.Attribute.layoutManager;
-			global::Syncfusion.SfKanban.Android.Resource.Attribute.reverseLayout = global::GettingStartedKanban.Droid.Resource.Attribute.reverseLayout;
-			global::Syncfusion.SfKanban.Android.Resource.Attribute.spanCount = global::GettingStartedKanban.Droid.Resource.Attribute.spanCount;
-			global::Syncfusion.SfKanban.Android.Resource.Attribute.stackFromEnd = global::GettingStartedKanban.Droid.Resource.Attribute.stackFromEnd;
-			global::Syncfusion.SfKanban.Android.Resource.Color.cardview_dark_background = global::GettingStartedKanban.Droid.Resource.Color.cardview_dark_background;
-			global::Syncfusion.SfKanban.Android.Resource.Color.cardview_light_background = global::GettingStartedKanban.Droid.Resource.Color.cardview_light_background;
-			global::Syncfusion.SfKanban.Android.Resource.Color.cardview_shadow_end_color = global::GettingStartedKanban.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Syncfusion.SfKanban.Android.Resource.Color.cardview_shadow_start_color = global::GettingStartedKanban.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Syncfusion.SfKanban.Android.Resource.Dimension.cardview_compat_inset_shadow = global::GettingStartedKanban.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Syncfusion.SfKanban.Android.Resource.Dimension.cardview_default_elevation = global::GettingStartedKanban.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Syncfusion.SfKanban.Android.Resource.Dimension.cardview_default_radius = global::GettingStartedKanban.Droid.Resource.Dimension.cardview_default_radius;
-			global::Syncfusion.SfKanban.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::GettingStartedKanban.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Syncfusion.SfKanban.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::GettingStartedKanban.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Syncfusion.SfKanban.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::GettingStartedKanban.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Syncfusion.SfKanban.Android.Resource.Drawable.defaultphoto = global::GettingStartedKanban.Droid.Resource.Drawable.defaultphoto;
-			global::Syncfusion.SfKanban.Android.Resource.Drawable.errorimage = global::GettingStartedKanban.Droid.Resource.Drawable.errorimage;
-			global::Syncfusion.SfKanban.Android.Resource.Drawable.kanban_collapse = global::GettingStartedKanban.Droid.Resource.Drawable.kanban_collapse;
-			global::Syncfusion.SfKanban.Android.Resource.Drawable.ripple = global::GettingStartedKanban.Droid.Resource.Drawable.ripple;
-			global::Syncfusion.SfKanban.Android.Resource.Drawable.roundedcorner = global::GettingStartedKanban.Droid.Resource.Drawable.roundedcorner;
-			global::Syncfusion.SfKanban.Android.Resource.Id.cardView = global::GettingStartedKanban.Droid.Resource.Id.cardView;
-			global::Syncfusion.SfKanban.Android.Resource.Id.description = global::GettingStartedKanban.Droid.Resource.Id.description;
-			global::Syncfusion.SfKanban.Android.Resource.Id.header = global::GettingStartedKanban.Droid.Resource.Id.header;
-			global::Syncfusion.SfKanban.Android.Resource.Id.item_touch_helper_previous_elevation = global::GettingStartedKanban.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Syncfusion.SfKanban.Android.Resource.Id.photo = global::GettingStartedKanban.Droid.Resource.Id.photo;
-			global::Syncfusion.SfKanban.Android.Resource.Id.reportCard = global::GettingStartedKanban.Droid.Resource.Id.reportCard;
-			global::Syncfusion.SfKanban.Android.Resource.Id.status = global::GettingStartedKanban.Droid.Resource.Id.status;
-			global::Syncfusion.SfKanban.Android.Resource.Id.syncfusionDefaultCard = global::GettingStartedKanban.Droid.Resource.Id.syncfusionDefaultCard;
-			global::Syncfusion.SfKanban.Android.Resource.Id.tagsLayout = global::GettingStartedKanban.Droid.Resource.Id.tagsLayout;
-			global::Syncfusion.SfKanban.Android.Resource.Layout.CardViewHolder = global::GettingStartedKanban.Droid.Resource.Layout.CardViewHolder;
-			global::Syncfusion.SfKanban.Android.Resource.Layout.DefaultCardView = global::GettingStartedKanban.Droid.Resource.Layout.DefaultCardView;
-			global::Syncfusion.SfKanban.Android.Resource.String.library_name = global::GettingStartedKanban.Droid.Resource.String.library_name;
-			global::Syncfusion.SfKanban.Android.Resource.Style.Base_CardView = global::GettingStartedKanban.Droid.Resource.Style.Base_CardView;
-			global::Syncfusion.SfKanban.Android.Resource.Style.CardView = global::GettingStartedKanban.Droid.Resource.Style.CardView;
-			global::Syncfusion.SfKanban.Android.Resource.Style.CardView_Dark = global::GettingStartedKanban.Droid.Resource.Style.CardView_Dark;
-			global::Syncfusion.SfKanban.Android.Resource.Style.CardView_Light = global::GettingStartedKanban.Droid.Resource.Style.CardView_Light;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView = global::GettingStartedKanban.Droid.Resource.Styleable.CardView;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_android_minHeight = global::GettingStartedKanban.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_android_minWidth = global::GettingStartedKanban.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_cardBackgroundColor = global::GettingStartedKanban.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_cardCornerRadius = global::GettingStartedKanban.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_cardElevation = global::GettingStartedKanban.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_cardMaxElevation = global::GettingStartedKanban.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::GettingStartedKanban.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::GettingStartedKanban.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_contentPadding = global::GettingStartedKanban.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_contentPaddingBottom = global::GettingStartedKanban.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_contentPaddingLeft = global::GettingStartedKanban.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_contentPaddingRight = global::GettingStartedKanban.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_contentPaddingTop = global::GettingStartedKanban.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.RecyclerView = global::GettingStartedKanban.Droid.Resource.Styleable.RecyclerView;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.RecyclerView_android_orientation = global::GettingStartedKanban.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.RecyclerView_layoutManager = global::GettingStartedKanban.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.RecyclerView_reverseLayout = global::GettingStartedKanban.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.RecyclerView_spanCount = global::GettingStartedKanban.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Syncfusion.SfKanban.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::GettingStartedKanban.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::GettingStartedKanban.Droid.Resource.Attribute.actionBarSize;
+			global::Syncfusion.SfKanban.Android.Resource.Animation.path_morph_hide = global::CustomKanban.Droid.Resource.Animation.path_morph_hide;
+			global::Syncfusion.SfKanban.Android.Resource.Animation.path_morph_show = global::CustomKanban.Droid.Resource.Animation.path_morph_show;
+			global::Syncfusion.SfKanban.Android.Resource.Attribute.cardBackgroundColor = global::CustomKanban.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Syncfusion.SfKanban.Android.Resource.Attribute.cardCornerRadius = global::CustomKanban.Droid.Resource.Attribute.cardCornerRadius;
+			global::Syncfusion.SfKanban.Android.Resource.Attribute.cardElevation = global::CustomKanban.Droid.Resource.Attribute.cardElevation;
+			global::Syncfusion.SfKanban.Android.Resource.Attribute.cardMaxElevation = global::CustomKanban.Droid.Resource.Attribute.cardMaxElevation;
+			global::Syncfusion.SfKanban.Android.Resource.Attribute.cardPreventCornerOverlap = global::CustomKanban.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Syncfusion.SfKanban.Android.Resource.Attribute.cardUseCompatPadding = global::CustomKanban.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Syncfusion.SfKanban.Android.Resource.Attribute.contentPadding = global::CustomKanban.Droid.Resource.Attribute.contentPadding;
+			global::Syncfusion.SfKanban.Android.Resource.Attribute.contentPaddingBottom = global::CustomKanban.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Syncfusion.SfKanban.Android.Resource.Attribute.contentPaddingLeft = global::CustomKanban.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Syncfusion.SfKanban.Android.Resource.Attribute.contentPaddingRight = global::CustomKanban.Droid.Resource.Attribute.contentPaddingRight;
+			global::Syncfusion.SfKanban.Android.Resource.Attribute.contentPaddingTop = global::CustomKanban.Droid.Resource.Attribute.contentPaddingTop;
+			global::Syncfusion.SfKanban.Android.Resource.Attribute.layoutManager = global::CustomKanban.Droid.Resource.Attribute.layoutManager;
+			global::Syncfusion.SfKanban.Android.Resource.Attribute.reverseLayout = global::CustomKanban.Droid.Resource.Attribute.reverseLayout;
+			global::Syncfusion.SfKanban.Android.Resource.Attribute.spanCount = global::CustomKanban.Droid.Resource.Attribute.spanCount;
+			global::Syncfusion.SfKanban.Android.Resource.Attribute.stackFromEnd = global::CustomKanban.Droid.Resource.Attribute.stackFromEnd;
+			global::Syncfusion.SfKanban.Android.Resource.Color.cardview_dark_background = global::CustomKanban.Droid.Resource.Color.cardview_dark_background;
+			global::Syncfusion.SfKanban.Android.Resource.Color.cardview_light_background = global::CustomKanban.Droid.Resource.Color.cardview_light_background;
+			global::Syncfusion.SfKanban.Android.Resource.Color.cardview_shadow_end_color = global::CustomKanban.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Syncfusion.SfKanban.Android.Resource.Color.cardview_shadow_start_color = global::CustomKanban.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Syncfusion.SfKanban.Android.Resource.Dimension.cardview_compat_inset_shadow = global::CustomKanban.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Syncfusion.SfKanban.Android.Resource.Dimension.cardview_default_elevation = global::CustomKanban.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Syncfusion.SfKanban.Android.Resource.Dimension.cardview_default_radius = global::CustomKanban.Droid.Resource.Dimension.cardview_default_radius;
+			global::Syncfusion.SfKanban.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::CustomKanban.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Syncfusion.SfKanban.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::CustomKanban.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Syncfusion.SfKanban.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::CustomKanban.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Syncfusion.SfKanban.Android.Resource.Drawable.defaultphoto = global::CustomKanban.Droid.Resource.Drawable.defaultphoto;
+			global::Syncfusion.SfKanban.Android.Resource.Drawable.errorimage = global::CustomKanban.Droid.Resource.Drawable.errorimage;
+			global::Syncfusion.SfKanban.Android.Resource.Drawable.kanban_collapse = global::CustomKanban.Droid.Resource.Drawable.kanban_collapse;
+			global::Syncfusion.SfKanban.Android.Resource.Drawable.ripple = global::CustomKanban.Droid.Resource.Drawable.ripple;
+			global::Syncfusion.SfKanban.Android.Resource.Drawable.roundedcorner = global::CustomKanban.Droid.Resource.Drawable.roundedcorner;
+			global::Syncfusion.SfKanban.Android.Resource.Id.cardView = global::CustomKanban.Droid.Resource.Id.cardView;
+			global::Syncfusion.SfKanban.Android.Resource.Id.description = global::CustomKanban.Droid.Resource.Id.description;
+			global::Syncfusion.SfKanban.Android.Resource.Id.header = global::CustomKanban.Droid.Resource.Id.header;
+			global::Syncfusion.SfKanban.Android.Resource.Id.item_touch_helper_previous_elevation = global::CustomKanban.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Syncfusion.SfKanban.Android.Resource.Id.photo = global::CustomKanban.Droid.Resource.Id.photo;
+			global::Syncfusion.SfKanban.Android.Resource.Id.reportCard = global::CustomKanban.Droid.Resource.Id.reportCard;
+			global::Syncfusion.SfKanban.Android.Resource.Id.status = global::CustomKanban.Droid.Resource.Id.status;
+			global::Syncfusion.SfKanban.Android.Resource.Id.syncfusionDefaultCard = global::CustomKanban.Droid.Resource.Id.syncfusionDefaultCard;
+			global::Syncfusion.SfKanban.Android.Resource.Id.tagsLayout = global::CustomKanban.Droid.Resource.Id.tagsLayout;
+			global::Syncfusion.SfKanban.Android.Resource.Layout.CardViewHolder = global::CustomKanban.Droid.Resource.Layout.CardViewHolder;
+			global::Syncfusion.SfKanban.Android.Resource.Layout.DefaultCardView = global::CustomKanban.Droid.Resource.Layout.DefaultCardView;
+			global::Syncfusion.SfKanban.Android.Resource.String.library_name = global::CustomKanban.Droid.Resource.String.library_name;
+			global::Syncfusion.SfKanban.Android.Resource.Style.Base_CardView = global::CustomKanban.Droid.Resource.Style.Base_CardView;
+			global::Syncfusion.SfKanban.Android.Resource.Style.CardView = global::CustomKanban.Droid.Resource.Style.CardView;
+			global::Syncfusion.SfKanban.Android.Resource.Style.CardView_Dark = global::CustomKanban.Droid.Resource.Style.CardView_Dark;
+			global::Syncfusion.SfKanban.Android.Resource.Style.CardView_Light = global::CustomKanban.Droid.Resource.Style.CardView_Light;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView = global::CustomKanban.Droid.Resource.Styleable.CardView;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_android_minHeight = global::CustomKanban.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_android_minWidth = global::CustomKanban.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_cardBackgroundColor = global::CustomKanban.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_cardCornerRadius = global::CustomKanban.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_cardElevation = global::CustomKanban.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_cardMaxElevation = global::CustomKanban.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::CustomKanban.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::CustomKanban.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_contentPadding = global::CustomKanban.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_contentPaddingBottom = global::CustomKanban.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_contentPaddingLeft = global::CustomKanban.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_contentPaddingRight = global::CustomKanban.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.CardView_contentPaddingTop = global::CustomKanban.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.RecyclerView = global::CustomKanban.Droid.Resource.Styleable.RecyclerView;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.RecyclerView_android_orientation = global::CustomKanban.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.RecyclerView_layoutManager = global::CustomKanban.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.RecyclerView_reverseLayout = global::CustomKanban.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.RecyclerView_spanCount = global::CustomKanban.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Syncfusion.SfKanban.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::CustomKanban.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::CustomKanban.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation

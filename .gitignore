@@ -15,3 +15,9 @@
 /packages
 /GettingStartedKanban.userprefs
 /patch_libs
+/GettingStartedKanban.UWP/bin/x86/Debug
+/CustomKanban/bin/Debug
+/CustomKanban/obj/Debug
+/CustomKanban.iOS/obj
+/CustomKanban.UWP/obj/x86/Debug
+/CustomKanban.UWP/bin/x86/Debug

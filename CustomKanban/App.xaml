@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application x:Class="CustomKanban.App"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+  <Application.Resources>
+    <!--  Application resource dictionary  -->
+    <ResourceDictionary>
+      <OnPlatform x:Key="CardHeight"
+                  x:TypeArguments="x:Double"
+                  Android="100"
+                  WinPhone="100"
+                  iOS="100" />
+
+      <OnPlatform x:Key="CardImageHeight"
+                  x:TypeArguments="x:Double"
+                  Android="90"
+                  WinPhone="90"
+                  iOS="90" />
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>

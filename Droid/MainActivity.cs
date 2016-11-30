@@ -3,7 +3,7 @@ using Android.Content.PM;
 using Android.OS;
 using ImageCircle.Forms.Plugin.Droid;
 
-namespace GettingStartedKanban.Droid
+namespace CustomKanban.Droid
 {
     [Activity(Label = "GettingStartedKanban.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
