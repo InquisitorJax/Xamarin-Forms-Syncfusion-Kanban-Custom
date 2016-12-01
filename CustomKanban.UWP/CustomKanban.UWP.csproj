@@ -107,6 +107,9 @@
     <None Include="GettingStartedKanban.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\images\ic_hero_filler.png">
+      <Link>ic_hero_filler.png</Link>
+    </Content>
     <Content Include="Image1.png" />
     <Content Include="Image2.png" />
     <Content Include="Image3.png" />

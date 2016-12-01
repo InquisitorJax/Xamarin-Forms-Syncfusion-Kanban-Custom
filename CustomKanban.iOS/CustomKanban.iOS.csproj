@@ -143,7 +143,11 @@
       <InProject>false</InProject>
     </ImageAsset>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <BundleResource Include="..\images\ic_hero_filler.png">
+      <Link>Resources\ic_hero_filler.png</Link>
+    </BundleResource>
+  </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
   </ItemGroup>
