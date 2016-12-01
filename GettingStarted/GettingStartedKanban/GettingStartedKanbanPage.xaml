@@ -1,35 +1,35 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-		xmlns:kanban="clr-namespace:Syncfusion.SfKanban.XForms;assembly=Syncfusion.SfKanban.XForms"
-		xmlns:local="clr-namespace:GettingStartedKanban" 
-		x:Class="GettingStartedKanban.GettingStartedKanbanPage"
-		xmlns:sys="clr-namespace:System;assembly=mscorlib">
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="GettingStartedKanban.GettingStartedKanbanPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:kanban="clr-namespace:Syncfusion.SfKanban.XForms;assembly=Syncfusion.SfKanban.XForms"
+             xmlns:local="clr-namespace:GettingStartedKanban"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-	<StackLayout >
-	
-	<kanban:SfKanban x:Name="kanban" AutoGenerateColumns="False" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ItemsSource="{Binding Cards}">
-
-
-		<kanban:SfKanban.Columns>
-
-			<kanban:KanbanColumn x:Name="column1" Title="To Do" MinimumLimit="5" MaximumLimit="15" >
-			</kanban:KanbanColumn>
-
-			<kanban:KanbanColumn x:Name="column2" Title="In Progress" MinimumLimit="3" MaximumLimit="8">
-			</kanban:KanbanColumn>
-
-			<kanban:KanbanColumn x:Name="column3" Title="Code Review" MinimumLimit="5" MaximumLimit="10">
-			</kanban:KanbanColumn>
-
-			<kanban:KanbanColumn x:Name="column4" Title="Done" MinimumLimit="8" MaximumLimit="12">
-			</kanban:KanbanColumn>
-
-		</kanban:SfKanban.Columns>
-
-	</kanban:SfKanban>
-
-		</StackLayout>
-
-	
+  <StackLayout>
+    <kanban:SfKanban x:Name="kanban"
+                     AutoGenerateColumns="False"
+                     HorizontalOptions="FillAndExpand"
+                     ItemsSource="{Binding Cards}"
+                     VerticalOptions="FillAndExpand">
+      <kanban:SfKanban.Columns>
+        <kanban:KanbanColumn x:Name="column1"
+                             Title="To Do"
+                             MaximumLimit="15"
+                             MinimumLimit="5" />
+        <kanban:KanbanColumn x:Name="column2"
+                             Title="In Progress"
+                             MaximumLimit="8"
+                             MinimumLimit="3" />
+        <kanban:KanbanColumn x:Name="column3"
+                             Title="Code Review"
+                             MaximumLimit="10"
+                             MinimumLimit="5" />
+        <kanban:KanbanColumn x:Name="column4"
+                             Title="Done"
+                             MaximumLimit="12"
+                             MinimumLimit="8" />
+      </kanban:SfKanban.Columns>
+    </kanban:SfKanban>
+  </StackLayout>
 </ContentPage>
