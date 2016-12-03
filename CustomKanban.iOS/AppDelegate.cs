@@ -2,6 +2,7 @@
 using ImageCircle.Forms.Plugin.iOS;
 using Syncfusion.SfKanban.XForms.iOS;
 using UIKit;
+using Wibci.Xamarin.Forms.Converters;
 
 namespace CustomKanban.iOS
 {
@@ -11,6 +12,9 @@ namespace CustomKanban.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             ImageCircleRenderer.Init();
+
+            //HACK: get iOS to recognize library
+            ByteArrayToImageSourceConverter cn = new ByteArrayToImageSourceConverter();
 
             global::Xamarin.Forms.Forms.Init();
 
