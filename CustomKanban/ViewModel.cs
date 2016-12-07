@@ -21,6 +21,7 @@ namespace CustomKanban
                 Id = Guid.NewGuid().ToString(),
                 Title = "Superman",
                 Category = "Beginner",
+                SuperPower = "Beginner",
                 Description = "The Man of Steel",
                 Picture = null,
                 Status = (int)CustomCardStatus.Beginner

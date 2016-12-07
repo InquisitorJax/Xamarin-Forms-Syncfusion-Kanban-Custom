@@ -12,6 +12,7 @@ namespace CustomKanban
 
         private int _status;
 
+        private string _superPower;
         private string _title;
 
         public string Category
@@ -42,6 +43,12 @@ namespace CustomKanban
         {
             get { return _status; }
             set { SetProperty(ref _status, value); }
+        }
+
+        public string SuperPower
+        {
+            get { return _superPower; }
+            set { SetProperty(ref _superPower, value); }
         }
 
         public string Title

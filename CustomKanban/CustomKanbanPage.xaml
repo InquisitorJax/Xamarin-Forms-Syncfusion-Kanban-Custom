@@ -11,6 +11,7 @@
     <kanban:SfKanban x:Name="kanban"
                      AutoGenerateColumns="False"
                      HorizontalOptions="FillAndExpand"
+                     ColumnMappingPath="SuperPower"
                      ItemsSource="{Binding Cards}"
                      VerticalOptions="FillAndExpand">
       <kanban:SfKanban.Behaviors>
