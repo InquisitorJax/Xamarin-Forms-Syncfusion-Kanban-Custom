@@ -4,7 +4,7 @@ namespace CustomKanban
 {
     public class CustomModel : BindableBase
     {
-        //private string _category;
+        private string _category;
         private string _description;
         private string _id;
 
@@ -14,12 +14,10 @@ namespace CustomKanban
 
         private string _title;
 
-		public object Category
+        public string Category
         {
-			get;
-			set;
-            //get { return _category; }
-            //set { SetProperty(ref _category, value); }
+            get { return _category; }
+            set { SetProperty(ref _category, value); }
         }
 
         public string Description
