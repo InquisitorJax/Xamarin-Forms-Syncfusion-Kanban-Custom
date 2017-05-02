@@ -272,7 +272,7 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Prism.Core/6.2.0": {
+      "Prism.Core/6.3.0": {
         "compile": {
           "lib/wpa81/Prism.dll": {}
         },
@@ -304,7 +304,10 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Syncfusion.Xamarin.SfKanban/14.4.0.15": {
+      "Syncfusion.Xamarin.SfKanban/15.1.0.41": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.49"
+        },
         "compile": {
           "lib/uap10.0/Syncfusion.SfKanban.UWP.dll": {},
           "lib/uap10.0/Syncfusion.SfKanban.XForms.UWP.dll": {},
@@ -2062,7 +2065,7 @@
           "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
         }
       },
-      "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
+      "Xam.Plugins.Forms.ImageCircle/1.8.1": {
         "dependencies": {
           "Xamarin.Forms": "2.3.2.127"
         },
@@ -2075,7 +2078,7 @@
           "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.3.168": {
+      "Xamarin.Forms/2.3.4.231": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
@@ -2308,7 +2311,7 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Prism.Core/6.2.0": {
+      "Prism.Core/6.3.0": {
         "compile": {
           "lib/wpa81/Prism.dll": {}
         },
@@ -2620,7 +2623,10 @@
           "runtimes/win8-arm/native/clrcompression.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfKanban/14.4.0.15": {
+      "Syncfusion.Xamarin.SfKanban/15.1.0.41": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.49"
+        },
         "compile": {
           "lib/uap10.0/Syncfusion.SfKanban.UWP.dll": {},
           "lib/uap10.0/Syncfusion.SfKanban.XForms.UWP.dll": {},
@@ -4230,7 +4236,7 @@
           "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
         }
       },
-      "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
+      "Xam.Plugins.Forms.ImageCircle/1.8.1": {
         "dependencies": {
           "Xamarin.Forms": "2.3.2.127"
         },
@@ -4243,7 +4249,7 @@
           "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.3.168": {
+      "Xamarin.Forms/2.3.4.231": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
@@ -4477,7 +4483,7 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Prism.Core/6.2.0": {
+      "Prism.Core/6.3.0": {
         "compile": {
           "lib/wpa81/Prism.dll": {}
         },
@@ -4827,7 +4833,10 @@
           "runtimes/win8-arm-aot/native/_._": {}
         }
       },
-      "Syncfusion.Xamarin.SfKanban/14.4.0.15": {
+      "Syncfusion.Xamarin.SfKanban/15.1.0.41": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.49"
+        },
         "compile": {
           "lib/uap10.0/Syncfusion.SfKanban.UWP.dll": {},
           "lib/uap10.0/Syncfusion.SfKanban.XForms.UWP.dll": {},
@@ -6437,7 +6446,7 @@
           "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
         }
       },
-      "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
+      "Xam.Plugins.Forms.ImageCircle/1.8.1": {
         "dependencies": {
           "Xamarin.Forms": "2.3.2.127"
         },
@@ -6450,7 +6459,7 @@
           "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.3.168": {
+      "Xamarin.Forms/2.3.4.231": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
@@ -6687,7 +6696,7 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Prism.Core/6.2.0": {
+      "Prism.Core/6.3.0": {
         "compile": {
           "lib/wpa81/Prism.dll": {}
         },
@@ -7004,7 +7013,10 @@
           "runtimes/win/lib/netcore50/System.Private.Uri.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfKanban/14.4.0.15": {
+      "Syncfusion.Xamarin.SfKanban/15.1.0.41": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.49"
+        },
         "compile": {
           "lib/uap10.0/Syncfusion.SfKanban.UWP.dll": {},
           "lib/uap10.0/Syncfusion.SfKanban.XForms.UWP.dll": {},
@@ -8614,7 +8626,7 @@
           "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
         }
       },
-      "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
+      "Xam.Plugins.Forms.ImageCircle/1.8.1": {
         "dependencies": {
           "Xamarin.Forms": "2.3.2.127"
         },
@@ -8627,7 +8639,7 @@
           "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.3.168": {
+      "Xamarin.Forms/2.3.4.231": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
@@ -8865,7 +8877,7 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Prism.Core/6.2.0": {
+      "Prism.Core/6.3.0": {
         "compile": {
           "lib/wpa81/Prism.dll": {}
         },
@@ -9220,7 +9232,10 @@
           "runtimes/aot/lib/netcore50/System.Private.Uri.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfKanban/14.4.0.15": {
+      "Syncfusion.Xamarin.SfKanban/15.1.0.41": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.49"
+        },
         "compile": {
           "lib/uap10.0/Syncfusion.SfKanban.UWP.dll": {},
           "lib/uap10.0/Syncfusion.SfKanban.XForms.UWP.dll": {},
@@ -10830,7 +10845,7 @@
           "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
         }
       },
-      "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
+      "Xam.Plugins.Forms.ImageCircle/1.8.1": {
         "dependencies": {
           "Xamarin.Forms": "2.3.2.127"
         },
@@ -10843,7 +10858,7 @@
           "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.3.168": {
+      "Xamarin.Forms/2.3.4.231": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
@@ -11080,7 +11095,7 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Prism.Core/6.2.0": {
+      "Prism.Core/6.3.0": {
         "compile": {
           "lib/wpa81/Prism.dll": {}
         },
@@ -11397,7 +11412,10 @@
           "runtimes/win/lib/netcore50/System.Private.Uri.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfKanban/14.4.0.15": {
+      "Syncfusion.Xamarin.SfKanban/15.1.0.41": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.49"
+        },
         "compile": {
           "lib/uap10.0/Syncfusion.SfKanban.UWP.dll": {},
           "lib/uap10.0/Syncfusion.SfKanban.XForms.UWP.dll": {},
@@ -13007,7 +13025,7 @@
           "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
         }
       },
-      "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
+      "Xam.Plugins.Forms.ImageCircle/1.8.1": {
         "dependencies": {
           "Xamarin.Forms": "2.3.2.127"
         },
@@ -13020,7 +13038,7 @@
           "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.3.168": {
+      "Xamarin.Forms/2.3.4.231": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
@@ -13258,7 +13276,7 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "Prism.Core/6.2.0": {
+      "Prism.Core/6.3.0": {
         "compile": {
           "lib/wpa81/Prism.dll": {}
         },
@@ -13613,7 +13631,10 @@
           "runtimes/aot/lib/netcore50/System.Private.Uri.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfKanban/14.4.0.15": {
+      "Syncfusion.Xamarin.SfKanban/15.1.0.41": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.49"
+        },
         "compile": {
           "lib/uap10.0/Syncfusion.SfKanban.UWP.dll": {},
           "lib/uap10.0/Syncfusion.SfKanban.XForms.UWP.dll": {},
@@ -15223,7 +15244,7 @@
           "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
         }
       },
-      "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
+      "Xam.Plugins.Forms.ImageCircle/1.8.1": {
         "dependencies": {
           "Xamarin.Forms": "2.3.2.127"
         },
@@ -15236,7 +15257,7 @@
           "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.3.168": {
+      "Xamarin.Forms/2.3.4.231": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
@@ -15454,7 +15475,7 @@
       ]
     },
     "Microsoft.NETCore.UniversalWindowsPlatform/5.2.2": {
-      "sha512": "9UHv2YObWmcF8gqtBoDC4UW5gdHzFRtaZ5KtB9QKvCy+NC9LH1DMYyOI/ltupjVZlwYEulj3msjBXys9/QI6nw==",
+      "sha512": "eHccUiYTkiY8xeixRA0DV9mcFpi9GA9UzKt3v0d6NtNGrGefhmqwnb60PSWQPe49tXbxZaP0x+W0ghvj6hflHg==",
       "type": "package",
       "path": "Microsoft.NETCore.UniversalWindowsPlatform/5.2.2",
       "files": [
@@ -15555,12 +15576,12 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Prism.Core/6.2.0": {
-      "sha512": "jWJRmjvR/bJqVyLr3T9hKToyV6X0Q2DONtyfa8ZjHJwlkD/SF3YJM+z8xSdqQl8uPfLOmgBG6Xm4lPk69P5o0g==",
+    "Prism.Core/6.3.0": {
+      "sha512": "8KKRF/1Hx76dXFrYb3XUbkGFWTZjjI99DTGcPt5/aGghb3iYBscxiT4WDVlGmUpfqw7QS/jDI2BGs5ZsAy8XVA==",
       "type": "package",
-      "path": "Prism.Core/6.2.0",
+      "path": "Prism.Core/6.3.0",
       "files": [
-        "Prism.Core.6.2.0.nupkg.sha512",
+        "Prism.Core.6.3.0.nupkg.sha512",
         "Prism.Core.nuspec",
         "lib/MonoAndroid10/Prism.dll",
         "lib/MonoAndroid10/Prism.xml",
@@ -16542,12 +16563,12 @@
         "runtimes/win8-arm/native/clrcompression.dll"
       ]
     },
-    "Syncfusion.Xamarin.SfKanban/14.4.0.15": {
-      "sha512": "gaUOeq9KxFnmMtqT67Qs/Dhi2aZnHFlPM/fyUFMklUAQzZXQg42AImkaG82UGYKDXueutAhbFxuB0ZqHv5cVHg==",
+    "Syncfusion.Xamarin.SfKanban/15.1.0.41": {
+      "sha512": "tiI7mtTmTs56hrUmkYF0MC4+pZHfgoblv6Zkut6M9u6elehoYSlaDmYPnUytkZm3U9sB+p+0obabF2wlRNqasA==",
       "type": "package",
-      "path": "Syncfusion.Xamarin.SfKanban/14.4.0.15",
+      "path": "Syncfusion.Xamarin.SfKanban/15.1.0.41",
       "files": [
-        "Syncfusion.Xamarin.SfKanban.14.4.0.15.nupkg.sha512",
+        "Syncfusion.Xamarin.SfKanban.15.1.0.41.nupkg.sha512",
         "Syncfusion.Xamarin.SfKanban.nuspec",
         "lib/MonoAndroid10/Syncfusion.SfKanban.Android.XML",
         "lib/MonoAndroid10/Syncfusion.SfKanban.Android.dll",
@@ -21493,12 +21514,12 @@
         "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll"
       ]
     },
-    "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
-      "sha512": "Wl9OR/YnS/4u0yUJiFrPD6y3ZV7n7nobfHRA/nUuOHdPdb+g5gsn3eCKHovqUrHLchoMNOn85I+v7cxalumLhQ==",
+    "Xam.Plugins.Forms.ImageCircle/1.8.1": {
+      "sha512": "gU4mTnwB3TCBw3eLP0MNpLUKNsWxYJe28NbpU/CY6YQaGtrIOZ5XRrvjz30w6AKhXeIA+DC6klUY1YqfCNWgPg==",
       "type": "package",
-      "path": "Xam.Plugins.Forms.ImageCircle/1.8.0.5",
+      "path": "Xam.Plugins.Forms.ImageCircle/1.8.1",
       "files": [
-        "Xam.Plugins.Forms.ImageCircle.1.8.0.5.nupkg.sha512",
+        "Xam.Plugins.Forms.ImageCircle.1.8.1.nupkg.sha512",
         "Xam.Plugins.Forms.ImageCircle.nuspec",
         "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Abstractions.dll",
         "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Abstractions.pdb",
@@ -21539,18 +21560,13 @@
         "lib/wpa81/ImageCircle.Forms.Plugin.WindowsPhoneRT.xml"
       ]
     },
-    "Xamarin.Forms/2.3.3.168": {
-      "sha512": "TVfXJHqoDgplaEAe9ZyZfleE1EwZrqNbSjFPh1RH3x+Ovz04fU4BoKhHpi3qwvhphyWAkgbBra98Yp+baYH9GA==",
+    "Xamarin.Forms/2.3.4.231": {
+      "sha512": "Tar4nHke8Rl0Mz2Y1MdNAMvo8wKc/wVVW2rN7loXMc+2R1ex3n/fzs7eD2F7gDw3TceGLQku52kyc5LuN8Hlgw==",
       "type": "package",
-      "path": "Xamarin.Forms/2.3.3.168",
+      "path": "Xamarin.Forms/2.3.4.231",
       "files": [
-        "Xamarin.Forms.2.3.3.168.nupkg.sha512",
+        "Xamarin.Forms.2.3.4.231.nupkg.sha512",
         "Xamarin.Forms.nuspec",
-        "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/ICSharpCode.Decompiler.dll",
-        "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/ICSharpCode.NRefactory.CSharp.dll",
-        "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/ICSharpCode.NRefactory.Cecil.dll",
-        "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/ICSharpCode.NRefactory.Xml.dll",
-        "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/ICSharpCode.NRefactory.dll",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Mdb.dll",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Pdb.dll",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Rocks.dll",
@@ -21651,6 +21667,7 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControl.xbf",
@@ -21705,11 +21722,11 @@
   "projectFileDependencyGroups": {
     "": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.2.2",
-      "Prism.Core >= 6.2.0",
-      "Syncfusion.Xamarin.SfKanban >= 14.4.0.15",
+      "Prism.Core >= 6.3.0",
+      "Syncfusion.Xamarin.SfKanban >= 15.1.0.41",
       "Wibcisoft.Xamarin.Forms.Converters >= 1.0.2",
-      "Xam.Plugins.Forms.ImageCircle >= 1.8.0.5",
-      "Xamarin.Forms >= 2.3.3.168"
+      "Xam.Plugins.Forms.ImageCircle >= 1.8.1",
+      "Xamarin.Forms >= 2.3.4.231"
     ],
     "UAP,Version=v10.0": []
   }

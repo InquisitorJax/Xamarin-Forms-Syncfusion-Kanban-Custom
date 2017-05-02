@@ -1,11 +1,11 @@
 ﻿{
   "dependencies": {
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
-    "Prism.Core": "6.2.0",
-    "Syncfusion.Xamarin.SfKanban": "14.4.0.15",
+    "Prism.Core": "6.3.0",
+    "Syncfusion.Xamarin.SfKanban": "15.1.0.41",
     "Wibcisoft.Xamarin.Forms.Converters": "1.0.2",
-    "Xam.Plugins.Forms.ImageCircle": "1.8.0.5",
-    "Xamarin.Forms": "2.3.3.168"
+    "Xam.Plugins.Forms.ImageCircle": "1.8.1",
+    "Xamarin.Forms": "2.3.4.231"
   },
   "frameworks": {
     "uap10.0": {}

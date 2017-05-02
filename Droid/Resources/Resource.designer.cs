@@ -70,6 +70,9 @@ namespace CustomKanban.Droid
 			global::Syncfusion.SfKanban.Android.Resource.Layout.CardViewHolder = global::CustomKanban.Droid.Resource.Layout.CardViewHolder;
 			global::Syncfusion.SfKanban.Android.Resource.Layout.DefaultCardView = global::CustomKanban.Droid.Resource.Layout.DefaultCardView;
 			global::Syncfusion.SfKanban.Android.Resource.String.library_name = global::CustomKanban.Droid.Resource.String.library_name;
+			global::Syncfusion.SfKanban.Android.Resource.String.sfkanban_itemscount_label = global::CustomKanban.Droid.Resource.String.sfkanban_itemscount_label;
+			global::Syncfusion.SfKanban.Android.Resource.String.sfkanban_max_label = global::CustomKanban.Droid.Resource.String.sfkanban_max_label;
+			global::Syncfusion.SfKanban.Android.Resource.String.sfkanban_min_label = global::CustomKanban.Droid.Resource.String.sfkanban_min_label;
 			global::Syncfusion.SfKanban.Android.Resource.Style.Base_CardView = global::CustomKanban.Droid.Resource.Style.Base_CardView;
 			global::Syncfusion.SfKanban.Android.Resource.Style.CardView = global::CustomKanban.Droid.Resource.Style.CardView;
 			global::Syncfusion.SfKanban.Android.Resource.Style.CardView_Dark = global::CustomKanban.Droid.Resource.Style.CardView_Dark;
@@ -3187,6 +3190,15 @@ namespace CustomKanban.Droid
 			
 			// aapt resource value: 0x7f08000e
 			public const int mr_user_route_category_name = 2131230734;
+			
+			// aapt resource value: 0x7f080027
+			public const int sfkanban_itemscount_label = 2131230759;
+			
+			// aapt resource value: 0x7f080029
+			public const int sfkanban_max_label = 2131230761;
+			
+			// aapt resource value: 0x7f080028
+			public const int sfkanban_min_label = 2131230760;
 			
 			// aapt resource value: 0x7f080022
 			public const int status_bar_notification_info_overflow = 2131230754;

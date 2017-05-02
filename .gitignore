@@ -30,3 +30,6 @@
 /GettingStarted/iOS/obj/iPhoneSimulator/Debug
 /GettingStarted/packages
 /CustomKanban.iOS/bin/iPhoneSimulator/Debug
+/.vs/CustomKanban/v14/.suo
+/Droid/obj/.cache
+/Droid/CustomKanban.Droid.csproj.user
