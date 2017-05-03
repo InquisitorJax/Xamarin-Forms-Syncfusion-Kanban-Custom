@@ -110,6 +110,9 @@
     <Content Include="..\images\ic_hero_filler.png">
       <Link>ic_hero_filler.png</Link>
     </Content>
+    <Content Include="..\images\Map.png">
+      <Link>Map.png</Link>
+    </Content>
     <Content Include="Image1.png" />
     <Content Include="Image2.png" />
     <Content Include="Image3.png" />

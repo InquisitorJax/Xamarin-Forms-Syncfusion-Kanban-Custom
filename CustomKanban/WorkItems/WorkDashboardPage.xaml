@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage x:Class="CustomKanban.CustomKanbanPage"
+<ContentPage x:Class="CustomKanban.WorkDashboardPage"
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:kanban="clr-namespace:Syncfusion.SfKanban.XForms;assembly=Syncfusion.SfKanban.XForms"
@@ -7,25 +7,24 @@
              xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <StackLayout>
-
         <kanban:SfKanban x:Name="kanban"
                          AutoGenerateColumns="False"
-                         ColumnMappingPath="SuperPower"
+                         ColumnMappingPath="WorkItemStatus"
                          HorizontalOptions="FillAndExpand"
-                         ItemsSource="{Binding Cards}"
+                         ItemsSource="{Binding WorkItems}"
                          VerticalOptions="FillAndExpand">
             <kanban:SfKanban.Behaviors>
                 <local:KanbanItemTappedToCommandBehavior Command="{Binding OpenSelectedCardCommand}" />
             </kanban:SfKanban.Behaviors>
 
             <kanban:SfKanban.Columns>
-                <kanban:KanbanColumn x:Name="column1" Title="beginner" />
-                <kanban:KanbanColumn x:Name="column2" Title="intermediate" />
-                <kanban:KanbanColumn x:Name="column3" Title="super" />
+                <kanban:KanbanColumn x:Name="column1" Title="not started" />
+                <kanban:KanbanColumn x:Name="column2" Title="in progress" />
+                <kanban:KanbanColumn x:Name="column3" Title="completed" />
             </kanban:SfKanban.Columns>
             <kanban:SfKanban.CardTemplate>
                 <DataTemplate>
-                    <local:CustomCard Value="{Binding .}" />
+                    <local:WorkItemCard Value="{Binding .}" />
                 </DataTemplate>
             </kanban:SfKanban.CardTemplate>
         </kanban:SfKanban>

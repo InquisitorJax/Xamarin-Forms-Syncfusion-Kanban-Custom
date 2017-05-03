@@ -16,7 +16,10 @@ namespace CustomKanban.iOS
             //HACK: get iOS to recognize library
             ByteArrayToImageSourceConverter cn = new ByteArrayToImageSourceConverter();
 
+            ImageCircleRenderer.Init();
+
             global::Xamarin.Forms.Forms.Init();
+
 
             LoadApplication(new App());
 

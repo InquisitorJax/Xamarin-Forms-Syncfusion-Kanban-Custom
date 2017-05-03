@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="CustomKanban.WorkItemPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:colors="clr-namespace:CustomKanban"
+             xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid BackgroundColor="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <ic:CircleImage x:Name="ProfilePhoto"
+                            BorderColor="{x:Static colors:Colors.Primary}"
+                            BorderThickness="1"
+                            HeightRequest="{StaticResource CardImageHeight}"
+                            HorizontalOptions="Center"
+                            Source="{Binding Model.PictureName}"
+                            VerticalOptions="Center"
+                            WidthRequest="{StaticResource CardImageHeight}" />
+
+            <Label Grid.Row="1"
+                   HorizontalOptions="Center"
+                   Text="{Binding Model.WorkerName}"
+                   VerticalOptions="Center" />
+        </Grid>
+        <Grid Grid.Row="1" Padding="12">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Label Text="{Binding Model.WorkDescription}" />
+            <Image Grid.Row="1" Source="Map" />
+        </Grid>
+    </Grid>
+</ContentPage>

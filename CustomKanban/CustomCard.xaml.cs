@@ -24,7 +24,7 @@ namespace CustomKanban
                 }
                 catch (ArgumentException)
                 {
-                    Debug.WriteLine("Could not bind CustomerCard.ServiceProviderCustomer Property");
+                    Debug.WriteLine("Could not bind CustomerCard.CustomModel Property");
                 }
             }
         }

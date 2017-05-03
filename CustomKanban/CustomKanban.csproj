@@ -58,6 +58,19 @@
     <Compile Include="KanbanItemTappedToCommandBehavior.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel.cs" />
+    <Compile Include="WorkItems\WorkItemCard.xaml.cs">
+      <DependentUpon>WorkItemCard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WorkItems\WorkItemPage.xaml.cs">
+      <DependentUpon>WorkItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WorkItems\WorkDashboardViewModel.cs" />
+    <Compile Include="WorkItems\WorkDashboardPage.xaml.cs">
+      <DependentUpon>WorkDashboardPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WorkItems\WorkItem.cs" />
+    <Compile Include="WorkItems\WorkItemStatus.cs" />
+    <Compile Include="WorkItems\WorkItemViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="ImageCircle.Forms.Plugin.Abstractions, Version=1.8.1.0, Culture=neutral, processorArchitecture=MSIL">
@@ -100,6 +113,25 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CardPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WorkItems\WorkDashboardPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>
+      </SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WorkItems\WorkItemPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WorkItems\WorkItemCard.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

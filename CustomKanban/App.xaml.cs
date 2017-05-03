@@ -8,7 +8,10 @@ namespace CustomKanban
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new CustomKanbanPage());
+            var basicPage = new CustomKanbanPage(); //basic example
+            var workItemPage = new WorkDashboardPage(); //alternative example
+
+            MainPage = new NavigationPage(workItemPage);
         }
 
         protected override void OnResume()
